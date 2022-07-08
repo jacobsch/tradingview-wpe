@@ -1,0 +1,44 @@
+<!-- TradingView Widget BEGIN -->
+<style type="text/css">
+body {
+padding:0;
+margin:0;
+overflow:hidden;
+}
+</style>
+<div class="tradingview-widget-container">
+  <div id="tradingview_f466b"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BLX/?exchange=BNC" rel="noopener" target="_blank"><span class="blue-text">BLX Chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "BNC:BLX",
+  "interval": "D",
+  "timezone": "Europe/Lisbon",
+  "theme": "dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "withdateranges": true,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "watchlist": [
+    "BINANCE:ETHUSDT",
+    "BINANCE:ADAUSDT"
+  ],
+  "details": true,
+  "hotlist": true,
+  "calendar": true,
+  "studies": [
+    "IchimokuCloud@tv-basicstudies",
+    "RSI@tv-basicstudies",
+  ],
+  "container_id": "tradingview_f466b"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
